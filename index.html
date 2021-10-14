@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main>
+        <section class="personal-data-form">
+            <h2>Form One</h2>
+            <form>
+                <fieldset>
+                    <legend>Personal Data</legend>
+    
+                    <label for="fname">First Name:</label> <br>
+                    <input type="text" name="firstName" id="fname" value="name" required> <br>
+    
+                    <label for="lname">Last Name:</label> <br>
+                    <input type="text" id="lname" name="lastName" value="name" required> <br>
+    
+                    <label for="street">Street:</label><br>
+                    <input type="text" name="street" id="street" value="street" required><br>
+    
+                    <label for="zipcode">Zipcode:</label> <br>
+                    <input type="number" id="zipcode" name="zipcode" required> <br>
+                    
+                    <label for="city">City:</label> <br>
+                    <input type="text" id="city" name="city" value="city" required> <br>
+    
+                    <label for="tele">Phone:</label> <br>
+                    <input type="tel" id="tele" name="phone-number" value="number" required><br>
+    
+                    <label for="email">Email:</label> <br>
+                    <input type="email" id="email" name="email" value="email" required> <br>
+    
+                    <label for="text">Comments:</label><br>
+                    <input class="comment-area" type="text" placeholder="Tell us more about important colors, etc" id="text" name="comment">
+                </fieldset>
+            </form>
+        </section>
+
+
+
+        <section  class="product-form">
+            <form>
+            <fieldset>
+                <legend>Products</legend>
+
+                <p>Web Design:</p>
+                <input type="radio" id="w-design" name="web-design" checked>
+                <label for="w-design">Individual</label>
+
+                <input type="radio" id="we-design" name="web-design">
+                <label for="we-design">Template</label>
+                
+
+                <p>Web Development:</p>
+                <input type="checkbox" id="w-development" name="web-development">
+                <label for="w-development">HTML & CSS</label> <br>
+
+                <input type="checkbox" id="we-development" name="web-development">
+                <label for="we-development">JavaScript</label> <br>
+
+                <input type="checkbox" id="wdevelopment" name="web-development">
+                <label for="wdevelopment">MongoDB</label> <br>
+
+                <label for="pstart">pstart Start:</label> <br>
+                <input type="date" id="pstart" name="project-start"> <br>
+
+                <label for="pend">Project End:</label> <br>
+                <input type="date" id="pend" name="project-end"> <br>
+
+                <label for="category">Category:</label>
+                <select name="select-item" id="category">
+                    <option value="select">Select the service type</option>
+                    <option value="per">Personal</option>
+                    <option value="onl">Online</option>
+                </select> <br>
+
+            </fieldset>
+            <input class="button" type="button" name="send" id="ordering" value="Order our Service">
+        </form>
+        </section>
+        
+
+    <section class="advertisement-form">
+            
+        <div class="advert">
+            <h2>The Best Craft Beer in Spain</h2>
+            <p>Lorem ipsum dolor sit amet consectetur <br> adipisicing elit. Laboriosam aliquam at iure <br> distinctio nemo qui dolores ut eveniet officiis <br> dolorem aliquid autem accusamus, est, <br> doloremque quisquam maiores quas magnam <br> beatae?</p>
+        </div>
+        
+        <div class="reservation">
+                <h3>Make a reservation</h3>
+                <p>Get your spot before somebody else does!</p> 
+            </div>
+                
+
+            <form class="form-3">
+                <div>
+                  <label for="f-name">YOUR NAME</label> <br>
+                  <input type="text" id="f-name" name="full-name" placeholder="John B. Goode">  
+                </div>
+                
+
+            <div>
+                <label for="e-mail">YOUR EMAIL</label> <br>
+                <input type="email" id="e-mail" name="email" placeholder="john@gmail.com">
+
+                <p>Reservation Time</p>
+                <input class="btn" type="button" name="button" value="Reserve Now">
+            </div>
+        </form>
+
+    </section>
+        
+
+    </main>
+</body>
+</html>
